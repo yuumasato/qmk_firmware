@@ -3,7 +3,8 @@
 
 #include "../../config.h"
 
-#define AUTO_SHIFT_TIMEOUT 150
-#define NO_AUTO_SHIFT_ALPHA
+#define ONESHOT_TAP_TOGGLE 2
+
+#define TAPPING_TERM 80
 
 #endif
