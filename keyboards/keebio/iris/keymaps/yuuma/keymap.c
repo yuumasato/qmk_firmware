@@ -111,3 +111,12 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   }
   return true;
 }
+
+bool get_tapping_force_hold(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case LT(_LOWER,KC_SPC):
+            return true;
+        default:
+            return false;
+    }
+}
